@@ -23,9 +23,7 @@ header{
 
 /* Navigazione Principale */
 
-.contenitore-full{
-  width: 100%;
-  margin: 0 auto;
+.bluescuro{
   background-color: #2c3e50;
 }
 
@@ -58,6 +56,58 @@ color: white;
 
 /* Corpo della pagina */
 
+/* Chi Sono */
+
+.green{
+  background-color: #1abc9c;
+}
+
+.contenitore-main-1{
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.contenitore-main-1 img{
+  margin: 10% 0 4% 0;
+  max-height: 250px;
+}
+
+.contenitore-main-1 h2{
+  color: white;
+  font-size: 60px;
+}
+
+.contenitore-main-1 h4{
+  color: white;
+  padding: 10px 0 80px 0;
+  font-size: 20px;
+}
+
+/* Stella */
+
+.icon-line{
+  margin: 4% 0;
+}
+
+.icon-line div{
+  display: inline-block;
+}
+
+.icon-line i{
+  color: white;
+  font-size: 30px;
+  margin: 0 2%;
+}
+
+.line-white{
+  display: inline-block;
+  height: 4px;
+  width: 20%;
+  background-color: white;
+  border-radius: 10px;
+}
 
 
 /* Footer */
