@@ -6,8 +6,6 @@
   box-sizing: border-box;
 }
 
-
-
 h1,h2,h3,h4,h5,h6{
   margin: 0;
   padding: 0;
@@ -71,6 +69,10 @@ header{
 .testo-decorativo a{
 text-decoration: none;
 color: white;
+}
+
+.verde-visible:hover{
+  color:#1abc9c;
 }
 
 /* Corpo della pagina */
@@ -161,23 +163,33 @@ color: white;
   padding: 60px 0;
 }
 
-.Scarica-soft{
+.scarica-soft{
   margin-top: 30px;
 }
 
-.buttone-free{
+.scarica-soft a{
+  text-decoration: none;
+}
+
+.scarica-dow{
   font-size: 20px;
-  background-color: #1abc9c;
   color: white;
   padding: 15px 25px;
   border: 2px solid white;
   border-radius: 10px;
 }
 
-.buttone-free button{
-  background-color: #1abc9c;
-  border: none;
+.scarica-dow span{
   margin-left: 10px;
+}
+
+.scarica-dow:hover{
+  background-color: white;
+  color: black;
+}
+
+.scarica-dow span:hover{
+  background-color: white;
 }
 
 /* Contact Me */
@@ -224,7 +236,8 @@ footer{
 
 .font-grand{
   font-size: 25px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  margin-top: 40px;
 }
 
 .font-free{
@@ -253,9 +266,11 @@ footer{
   padding: 0 5px;
 }
 
-br{
-  margin: 5px;
+.icone i:hover{
+background-color: white;
+color: #212529;
 }
+
 /* Copyright */
 
 .blue-scuro{
