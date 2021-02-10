@@ -13,6 +13,12 @@ h1,h2,h3,h4,h5,h6{
   padding: 0;
 }
 
+img{
+  border-radius: 2%;
+  margin-bottom: 3%;
+  max-height: 250px;
+}
+
 body{
   font-family: 'Montserrat', sans-serif;
 }
@@ -30,7 +36,7 @@ header{
 
 /* Navigazione Principale */
 
-.bluescuro{
+.blu{
   background-color: #2c3e50;
 }
 
@@ -79,7 +85,7 @@ color: white;
 
 /* Chi Sono */
 
-.green{
+.verde{
   background-color: #1abc9c;
 }
 
@@ -87,17 +93,17 @@ color: white;
   text-align: center;
 }
 
- .center-line img{
+.avatar-size{
   margin: 10% 0 2% 0;
   max-height: 250px;
 }
 
-.center-line h2{
+.font-white{
   color: white;
-  font-size: 60px;
+  font-size: 50px;
 }
 
-.center-line h4{
+ .bianco{
   color: white;
   font-size: 20px;
 }
@@ -115,7 +121,7 @@ color: white;
 .icon-line-white i{
   color: white;
   font-size: 30px;
-  margin: 0 2%;
+  margin: 0 15px;
 }
 
 .line-hr{
@@ -132,9 +138,6 @@ color: white;
 
 .bluescuro-text{
   color: #2c3e50;
-}
-
-.bluescuro-text{
   font-size: 40px;
 }
 
@@ -149,16 +152,17 @@ color: white;
 .icon-line-blue i{
   color: #2c3e50;
   font-size: 30px;
-  margin: 0 2%;
+  margin: 0 15px;
 }
-
-/* Portfolio-img */
-
 
 /* About */
 
 .padding-fix{
-  padding: 70px 0;
+  padding: 60px 0;
+}
+
+.Scarica-soft{
+  margin-top: 30px;
 }
 
 .buttone-free{
@@ -170,4 +174,94 @@ color: white;
   border-radius: 10px;
 }
 
+.buttone-free button{
+  background-color: #1abc9c;
+  border: none;
+  margin-left: 10px;
+}
+
+/* Contact Me */
+
+.form-sviluppo input{
+  font-size: 21px;
+  border: none;
+  border-bottom: 1px solid;
+  border-color: rgba(108, 117, 125, 0.21);
+  width: 80%;
+  margin: 0 10%;
+  height: 100px;
+}
+
+.form-sviluppo textarea{
+  padding-top: 20px;
+  color: rgba(108, 117, 125, 0.8);
+  font-size: 21px;
+  border: none;
+  border-bottom: 1px solid;
+  border-color: rgba(108, 117, 125, 0.21);
+  width: 80%;
+  margin: 0 10%;
+  height: 200px;
+}
+
+.button-send{
+  font-size: 19px;
+  padding: 10px 20px;
+  background-color: #159a80;
+  margin: 0 10%;
+}
+
+.center-fix button{
+  text-align: none;
+}
+
 /* Footer */
+footer{
+  color: white;
+}
+
+/* About Informazioni Generali */
+
+.font-grand{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.font-free{
+  font-size: 19px;
+}
+
+.font-free a{
+  color: rgba(23, 175, 144, 0.8);
+}
+
+.font-pic{
+  font-size: 19px;
+}
+
+.icone i{
+  max-height: 55px;
+  max-width: 55px;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.icone a{
+  padding: 0 5px;
+}
+
+br{
+  margin: 5px;
+}
+/* Copyright */
+
+.blue-scuro{
+ background-color: #1a252f;
+}
+
+.pad-fix2{
+  padding: 30px 0;
+}
