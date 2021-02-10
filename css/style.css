@@ -11,12 +11,6 @@ h1,h2,h3,h4,h5,h6{
   padding: 0;
 }
 
-img{
-  border-radius: 2%;
-  margin-bottom: 3%;
-  max-height: 250px;
-}
-
 body{
   font-family: 'Montserrat', sans-serif;
 }
@@ -26,10 +20,6 @@ header{
   width: 100%;
   height: 100px;
   z-index: 999;
-}
-
-.white{
-  color: white;
 }
 
 /* Navigazione Principale */
@@ -58,7 +48,7 @@ header{
 .parte-line h5{
   display: inline-block;
   padding-right: 5%;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .parte-line a {
@@ -157,6 +147,49 @@ color: white;
   margin: 0 15px;
 }
 
+/* imagini di Portfoglio */
+
+.imagine-relative {
+  position: relative;
+  margin-left: 15px;
+}
+
+.imagine-relative:hover .plus-absolute {
+  opacity: 0.9;
+}
+
+.imagine-portfolio {
+  width: 100%;
+  border-radius: 2%;
+  margin: 15px 0;
+  transition: 0.5s;
+}
+
+.plus-absolute {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  background-color: rgb(26, 187, 156);
+  border-radius: 2%;
+  margin: 15px 0;
+  transition: .5s ease;
+  cursor: pointer;
+}
+
+.testo-plus {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* About */
 
 .padding-fix{
@@ -223,11 +256,13 @@ color: white;
   margin: 0 10%;
 }
 
-.center-fix button{
-  text-align: none;
+.paragrafo-size{
+  font-size: 16px;
+  color: white;
 }
 
 /* Footer */
+
 footer{
   color: white;
 }
@@ -253,8 +288,8 @@ footer{
 }
 
 .icone i{
-  max-height: 55px;
-  max-width: 55px;
+  height: 55px;
+  width: 55px;
   border: 2px solid white;
   border-radius: 50%;
   padding: 15px;
